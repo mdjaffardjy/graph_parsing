@@ -461,11 +461,11 @@ def Parsing_v_gspan(dossier,table_simi, graph_file, GrNoTool) :
                         
                         if (GrNoTool=='True') : #on regarde si c'est un notool
                             val = Tool_Or_Not(os.path.join(path, "processes_info.json"),n)  #c'est moi qui est commenté dans le cas pas de notool
-                            print('verif no  tool')
+                            
                         
                         else: #pas besoin de regarder car il n'y a pas de groupe rassemblant les notools   
                             val=True #mon ajout si pas de notool
-                            print('pas verif')
+                            
                         	
                         if val != False : #false quand notool
                             #print(n)

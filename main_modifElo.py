@@ -20,7 +20,7 @@ args = p.parse_args()
 #data = input("Dossier : ")
 #/home/maxime/Bureau/new_analysisNB_v2
 
-print(args.n)
+
  
 if os.path.exists(args.f) == False :
     print("Votre dossier d'entrée n'existe pas :(")
